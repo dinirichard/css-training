@@ -1,0 +1,43 @@
+body {
+  height: 2000px;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+em {
+  color: #e07a05;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.blueBox {
+  background: blue;
+  margin: 50px auto;
+}
+
+.greenBox {
+  background: green;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+}
+
+.redBox {
+  background: red;
+  margin: 0 auto;
+}
+
+.container {
+  position: fixed;
+  top: 50%;
+  margin-top: -50px;
+  left: 0;
+  width: 100%;
+}
+

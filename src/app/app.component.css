@@ -1,0 +1,29 @@
+p {
+  font-family: Lato;
+}
+nav {
+  height: auto;
+
+}
+/*
+  transition: property duration timing ;
+
+  
+*/
+nav#topLinks a {
+  position: relative;
+  color: rgb(224, 207, 191);
+  font-size: 1.5em;
+  bottom:0px;
+  left: 0px;
+  text-shadow: rgba(0,0,0,1) -1px -1px 1px;
+  transition: all 1.2s;
+}
+
+nav#topLinks a:hover {
+  color: rgb(92, 75, 57);
+  font-size: 2.4em;
+  top: -10px;
+  left: 12px;
+  text-shadow: rgba(0,0,0,1) 10px 10px 5px;
+}

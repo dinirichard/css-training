@@ -1,0 +1,82 @@
+.row1{
+  /* position: absolute; */
+  height: 105px;
+  width: 315px;
+}
+
+.row2{
+  /* position: absolute; */
+  height: 105px;
+  width: 315px;
+}
+
+.row3{
+  /* position: absolute; */
+  height: 105px;
+  width: 315px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.c1 {
+  background: maroon;
+  position: absolute;
+}
+
+.c2 {
+  background: purple;
+  position: absolute;
+  left: 110px;
+}
+
+.c3 {
+  background: burlywood;
+  position: absolute;
+  left: 215px;
+}
+
+.c4 {
+  background: skyblue;
+  position: absolute;
+}
+
+.c5 {
+  background: darkgreen;
+  position: absolute;
+  left: 110px;
+}
+
+.c6 {
+  background: goldenrod;
+  position: absolute;
+  left: 215px;
+}
+
+.c7 {
+  background: maroon;
+  position: absolute;
+}
+
+.c8 {
+  background: gray;
+  position: absolute;
+  left: 110px;
+}
+
+.c9 {
+  background: darkcyan;
+  position: absolute;
+  left: 215px;
+}
+
+.box:hover {
+  top: 50px;
+  left: 350px;
+  width: 300px;
+  height: 300px;
+}

@@ -1,0 +1,27 @@
+body {
+  height: 2000px;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+em {
+  color: #e07a05;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.blueBox {
+  background: blue;
+  position: fixed;
+  top: 150px;
+}
+
+.greenBox {
+  background: green;
+}
