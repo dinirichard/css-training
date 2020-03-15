@@ -80,3 +80,82 @@
   width: 300px;
   height: 300px;
 }
+
+div#slidecontainer figure {left: 0px;}
+div#slidecontainer:hover figure {left: 400px;}
+
+div#slidecontainer figure#slide1 {
+	z-index: 8;
+  transition: left 2s, z-index 2s step-end;
+}
+
+div#slidecontainer figure#slide2 {
+	z-index: 7;	
+  transition: left 2s 2s, z-index 2s step-end 2s;
+}
+
+div#slidecontainer figure#slide3 {
+	z-index: 6;
+  transition: left 2s 4s, z-index 2s step-end 4s;
+}
+
+div#slidecontainer figure#slide4 {
+	z-index: 5;	
+  transition: left 2s 6s, z-index 2s step-end 6s;
+}
+
+div#slidecontainer:hover figure#slide1 {z-index: 1;}
+div#slidecontainer:hover figure#slide2 {z-index: 2;}
+div#slidecontainer:hover figure#slide3 {z-index: 3;}
+div#slidecontainer:hover figure#slide4 {z-index: 4;}
+
+div#slidecontainer {
+	width: 350px;
+	height: 370px;
+	background: radial-gradient(rgb(241, 241, 241), rgb(171, 171, 171));
+	position: relative;
+	margin: 0px;
+	cursor: pointer;
+}
+
+div#slidecontainer figure {
+	width: 350px;
+	height: 380px;
+	cursor: pointer;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+figure div {
+	display: block;
+	width: 350px;
+	height: 350px;
+}
+
+figure {
+  margin: 0px;
+}
+
+
+figure figcaption {
+	font-family: "Times New Roman", "serif";
+	text-align: center;
+	background-color: white;
+}
+
+.image01 {
+  background: maroon;
+}
+
+.image02 {
+  background: purple;
+}
+
+.image03 {
+  background: darkcyan;
+}
+
+.image0 {
+  background: darkgreen;
+}
