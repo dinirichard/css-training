@@ -12,6 +12,7 @@ import { StaticInheritComponent } from './css-positioning/static-inherit/static-
 import { FloatingComponent } from './css-positioning/floating/floating.component';
 import { CenteringComponent } from './css-positioning/centering/centering.component';
 import { CssTransitionComponent } from './css-transition/css-transition.component';
+import { DDTransformsComponent } from './dd-transforms/dd-transforms.component';
 
 
 @NgModule({
@@ -26,9 +27,10 @@ import { CssTransitionComponent } from './css-transition/css-transition.componen
       { path: 'float', component: FloatingComponent },
       { path: 'center', component: CenteringComponent },
       { path: 'trans', component: CssTransitionComponent },
+      { path: '2dtrans', component: DDTransformsComponent },
     ])
   ],
-  declarations: [ AppComponent, HelloComponent, CssPositioningComponent, AbsolutePosComponent, RelativePosComponent, StaticInheritComponent, FloatingComponent, CenteringComponent, CssTransitionComponent ],
+  declarations: [ AppComponent, HelloComponent, CssPositioningComponent, AbsolutePosComponent, RelativePosComponent, StaticInheritComponent, FloatingComponent, CenteringComponent, CssTransitionComponent, DDTransformsComponent,  ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
