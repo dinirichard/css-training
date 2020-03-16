@@ -1,0 +1,84 @@
+   <section>
+      <article> 
+        <h1>Classical Greeting Cards</h1> 
+		  <figure id="card">
+			  <div class="cover01" alt="wow" id="cover"></div>
+			  <div class="inside01" alt="Happy Birthday" id="inside"></div>
+			  <figcaption>Mouseover to View the Message</figcaption>
+		  </figure>
+		  <p>If you love classical art as much as we do, we know you will love our
+		  line of classical greeting cards based on prints and paintings from da Vinci
+		  to Rembrandt.</p>
+		  <p>We have beautifully-designed cards for all occasions with just the right words to convey your heart
+			 or show your sense of humor. We also supply blank cards to let you supply your own
+			  personal message.</p>
+		  <p>If you don't see what you like, build your own using our online <a>card design software</a>. With
+			 thousands of clip art samples and design templates, you can show off your own artistic ability.</p>
+		  <p>Be sure to look into discount printing and shipping of large orders for weddings, graduations,
+			  and those end-of-the-world parties!</p>
+   
+      </article>         
+   </section>
+
+
+    <section>
+      <article> 
+        <h1>Payment Form</h1> 
+        <form id="payment">		  
+         <fieldset id="creditCard">
+            <legend>Credit Card (required)</legend>
+
+            <fieldset>
+               <label class="cardLabel">
+                  <input name="cCard" value="amex" type="radio" required />
+                  <div class="amex" alt="American Express"></div>
+                </label>
+               <label class="cardLabel">               
+                  <input name="cCard" value="discover" type="radio" required />
+                  <div class="discover" alt="Discover"></div>
+               </label>
+               <label class="cardLabel">                  
+                  <input name="cCard" value="master" type="radio" required />
+                  <div class="master" alt="MasterCard"></div>
+               </label>
+               <label class="cardLabel">                  
+                  <input name="cCard" value="visa" type="radio" required />
+                  <div class="visa" alt="Visa"></div>
+               </label>
+            </fieldset>
+
+            <label for="cardBox">Credit Card Number</label>
+            <input name="cardNumber" id="cardBox" type="text" required />
+			 
+            <label for="csc">CSC</label>
+            <input name="csc" id="csc" type="text" pattern="^\d{3}$" placeholder="nnn" />
+			 
+            <label for="monthList">Expiration Date</label>
+            <select name="cardMonth" id="monthList" required>
+               <option value="">--Month--</option>
+               <option value="01">January (01)</option>
+               <option value="02">February (02)</option>
+               <option value="03">March (03)</option>
+               <option value="04">April (04)</option>
+               <option value="05">May (05)</option>
+               <option value="06">June (06)</option>
+               <option value="07">July (07)</option>
+               <option value="08">August (08)</option>
+               <option value="09">September (09)</option>
+               <option value="10">October (10)</option>
+               <option value="11">November (11)</option>
+               <option value="12">December (12)</option>
+            </select>
+            <select name="cardYear" id="yearList" required>
+               <option value="">--Year--</option>
+               <option value="2017">2017</option>
+               <option value="2018">2018</option>
+               <option value="2019">2019</option>
+               <option value="2020">2020</option>
+               <option value="2021">2021</option>
+            </select>
+         </fieldset>
+			<input type="button" value="apply" />
+		  </form>
+      </article>         
+   </section>  
